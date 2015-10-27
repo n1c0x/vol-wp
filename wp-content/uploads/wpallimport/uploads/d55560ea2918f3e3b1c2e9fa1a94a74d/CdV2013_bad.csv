@@ -1,0 +1,343 @@
+;;;;;;;;;;;;;;;;;;;;;;
+Date;CDB;OPL;OBS1;OBS2;Instructeur;Vol; CDB;;OPL;;DC;;Instr.;; Simu;IFR;"Arr.
+IFR";Fonct.;Immat.;Type;Observations;Poste
+;;;;;;;Jour;Nuit;Jour;Nuit;Jour;Nuit;Jour;Nuit;;;;;;;;
+02/01/2013;;Sirac Jean-Michel;;;;CDG/VIE;1:21;0:56;;;;;;;;2:17;1;PF;FGKXO;A320;ATR CAT III;cdb
+02/01/2013;;Sirac Jean-Michel;;;;VIE/CDG;1:52;;;;;;;;;1:52;1;PNF;FGKXO;A320;;cdb
+02/01/2013;;Sirac Jean-Michel;;;;CDG/LYS;1:10;;;;;;;;;1:10;1;PNF;FGKXO;A320;;cdb
+03/01/2013;;Sirac Jean-Michel;;;;LYS/CDG;;1:06;;;;;;;;1:06;1;PF;FGRHM;A319;ATR CAT III;cdb
+03/01/2013;;Sirac Jean-Michel;;;;CDG/TLV;4:35;;;;;;;;;4:35;1;PNF;FGKXJ;A320;;cdb
+04/01/2013;;Sirac Jean-Michel;;;;TLV/CDG;4:54;;;;;;;;;4:54;1;PF;FGKXY;A320;;cdb
+07/01/2013;;Sirac Jean-Michel;;;;CDG/HAM;1:07;0:23;;;;;;;;1:30;1;PNF;FGHQK;A320;;cdb
+07/01/2013;;Sirac Jean-Michel;;;;HAM/CDG;;1:29;;;;;;;;1:29;1;PNF;FGHQK;A320;;cdb
+07/01/2013;;Sirac Jean-Michel;;;;CDG/BES;;1:09;;;;;;;;1:09;1;PF;FGUGP;A318;;cdb
+09/01/2013;;Sirac Jean-Michel;;;;BES/CDG;;1:21;;;;;;;;1:21;1;PF;FGUGF;A318;;cdb
+09/01/2013;;Sirac Jean-Michel;;;;CDG/SVO;3:37;;;;;;;;;3:37;1;PNF;FGKXU;A320;;cdb
+10/01/2013;;Sirac Jean-Michel;;;;SVO/CDG;1:00;2:58;;;;;;;;3:58;1;PNF;FGRHK;A319;ATR CAT III;cdb
+24/01/2013;;Soula Jory;;;;CDG/SVO;3:01;0:42;;;;;;;;3:43;1;PNF;FGRHO;A319;;cdb
+24/01/2013;;Soula Jory;;;;SVO/CDG;3:56;;;;;;;;;3:56;1;PF;FGRHO;A319;Dégivrage SVO;cdb
+25/01/2013;;Lipinski Laure;;;;CDG/HAM;1:36;;;;;;;;;1:36;1;PF;FGFKY;A320;Réserve;cdb
+25/01/2013;;Lipinski Laure;;;;HAM/CDG;1:29;;;;;;;;;1:29;1;PNF;FGFKY;A320;Réserve;cdb
+29/01/2013;;Hamon Frédéric;Gilles Vincent;;Vignier Denis;E1;;;;;;;;;3:30;3:30;2;MIX;simu320;A320;E1;cdb
+30/01/2013;;Hamon Frédéric;;;Dermineur Gilles;C1;;;;;;;;;3:30;3:30;2;MIX;simu320;A320;C1;cdb
+02/02/2013;;Gorris Romain;;;;CDG/LIN;0:43;0:46;;;;;;;;1:29;1;PNF;FGKXH;A320;;cdb
+02/02/2013;;Gorris Romain;;;;LIN/CDG;1:25;;;;;;;;;1:25;1;PNF;FGKXH;A320;;cdb
+02/02/2013;;Gorris Romain;;;;CDG/WAW;2:02;;;;;;;;;2:02;1;PF;FGKXH;A320;;cdb
+03/02/2013;;Gorris Romain;;;;WAW/CDG;1:47;0:36;;;;;;;;2:23;1;PF;FGTAK;A321;;cdb
+04/02/2013;;Lecuyer Jean-François;;;;ORY/NCE;1:20;;;;;;;;;1:20;1;PF;FGMZE;A321;Arrivée à vue;cdb
+04/02/2013;;Lecuyer Jean-François;;;;NCE/ORY;0:58;0:29;;;;;;;;1:27;1;PF;FGMZE;A321;;cdb
+04/02/2013;;Lecuyer Jean-François;;;;ORY/MPL;;1:09;;;;;;;;1:09;1;PNF;FGMZE;A321;;cdb
+05/02/2013;;Lecuyer Jean-François;;;;MPL/ORY;1:19;;;;;;;;;1:19;1;PF;FGUGR;A318;;cdb
+05/02/2013;;Lecuyer Jean-François;;;;ORY/TLN;1:15;;;;;;;;;1:15;;PNF;FGUGR;A318;Arrivée à vue;cdb
+06/02/2013;;Lecuyer Jean-François;;;;TLN/ORY;;1:31;;;;;;;;1:31;1;PNF;FHBNG;A320;;cdb
+14/02/2013;;Hocquet Emmanuel;;;;CDG/FRA;1:15;;;;;;;;;1:15;1;PF;FGUGO;A318;;cdb
+14/02/2013;;Hocquet Emmanuel;;;;FRA/CDG;;1:27;;;;;;;;1:27;1;PF;FGUGO;A318;;cdb
+14/02/2013;;Hocquet Emmanuel;;;;CDG/FRA;;1:11;;;;;;;;1:11;1;PNF;FGUGO;A318;;cdb
+15/02/2013;;Hocquet Emmanuel;;;;FRA/CDG;1:15;;;;;;;;;1:15;;PF;FGRHU;A319;;cdb
+15/02/2013;;Hocquet Emmanuel;;;;CDG/SVO;;3:33;;;;;;;;3:33;1;PNF;FGRHU;A319;;cdb
+16/02/2013;;Hocquet Emmanuel;;;;SVO/CDG;3:44;;;;;;;;;3:44;1;PNF;FGKXH;A320;;cdb
+16/02/2013;;Hocquet Emmanuel;;;;CDG/CPH;;1:53;;;;;;;;1:53;1;PF;FGUGO;A318;;cdb
+17/02/2013;;Hocquet Emmanuel;;;;CPH/CDG;1:47;;;;;;;;;1:47;1;PF;FGKXI;A320;;cdb
+17/02/2013;;Hocquet Emmanuel;;;;CDG/LIS;2:28;;;;;;;;;2:28;1;PNF;FGKXI;A320;;cdb
+17/02/2013;;Hocquet Emmanuel;;;;LIS/CDG;;2:21;;;;;;;;2:21;1;PNF;FGKXI;A320;Crasdab;cdb
+28/02/2013;;Quatrefages Denis;;;;CDG/HAM;1:33;;;;;;;;;1:33;1;PNF;FGKXR;A320;;cdb
+28/02/2013;;Quatrefages Denis;;;;HAM/CDG;;1:29;;;;;;;;1:29;1;PNF;FGKXR;A320;;cdb
+28/02/2013;;Quatrefages Denis;;;;CDG/VCE;;1:38;;;;;;;;1:38;1;PF;FGKXR;A320;;cdb
+01/03/2013;;Quatrefages Denis;;;;VCE/CDG;;1:46;;;;;;;;1:46;1;PF;FHEPE;A320;1 PNC débarque Pb personnel.;cdb
+01/03/2013;;Quatrefages Denis;;;;CDG/LYS;;1:08;;;;;;;;1:08;1;PNF;FHEPE;A320;;cdb
+02/03/2013;;Quatrefages Denis;;;;LYS/CDG;1:09;;;;;;;;;1:09;1;PNF;FGTAL;A321;;cdb
+02/03/2013;;Quatrefages Denis;;;;CDG/FCO;2:04;;;;;;;;;2:04;1;PF;FGTAL;A321;;cdb
+02/03/2013;;Quatrefages Denis;;;;FCO/CDG;;2:08;;;;;;;;2:08;1;PF;FGTAL;A321;ASR Windshear;cdb
+03/08/2013;;Barbieux Florent;;;;CDG/AMS;1:11;;;;;;;;;1:11;1;PNF;FGTAH;A321;;cdb
+03/08/2013;;Barbieux Florent;;;;AMS/CDG;1:11;;;;;;;;;1:11;1;PNF;FGTAH;A321;;cdb
+03/08/2013;;Barbieux Florent;;;;CDG/BCN;1:42;;;;;;;;;1:42;1;PF;FGTAH;A321;;cdb
+09/03/2013;;Barbieux Florent;;;;BCN/CDG;1:53;;;;;;;;;1:53;1;PNF;FGTAH;A321;;cdb
+09/03/2013;;Barbieux Florent;;;;CDG/LYS;1:11;;;;;;;;;1:11;1;PF;FGTAH;A321;;cdb
+10/03/2013;;Barbieux Florent;;;;LYS/CDG;1:16;;;;;;;;;1:16;1;PF;FGJVB;A320;;cdb
+10/03/2013;;Barbieux Florent;;;;CDG/RBA;2:52;;;;;;;;;2:52;1;PNF;FGTAS;A321;;cdb
+11/03/2013;;Barbieux Florent;;;;RBA/CDG;3:21;0:04;;;;;;;;3:25;1;PF;FGRXE;A319;;cdb
+11/03/2013;;Barbieux Florent;;;;CDG/GVA;1:09;;;;;;;;;1:09;1;PNF;FGKXM;A320;;cdb
+11/03/2013;;Barbieux Florent;;;;GVA/CDG;1:14;;;;;;;;;1:14;1;PF;FGKXM;A320;;cdb
+12/03/2013;;Martin Emmanuel;;;;CDG/LIS;;3:15;;;;;;;;3:15;1;PNF;FGUGH;A318;Neige à CDG. Départ avec 6 heures de retard.;cdb
+13/03/2013;;Martin Emmanuel;;;;LIS/CDG;2:43;;;;;;;;;2:43;1;PF;FGUGH;A318;;cdb
+19/03/2013;;Sirac Jean-Michel;;;;ORY/NCE;1:25;;;;;;;;;1:25;1;PNF;FGMZD;A321;;cdb
+19/03/2013;;Sirac Jean-Michel;;;;NCE/ORY;1:31;;;;;;;;;1:31;1;PNF;FGMZD;A321;;cdb
+19/03/2013;;Sirac Jean-Michel;;;;ORY/MPL;;1:21;;;;;;;;1:21;1;PF;FGMZD;A321;;cdb
+20/03/2013;;Sirac Jean-Michel;;;;MPL/ORY;1:17;;;;;;;;;1:17;1;PF;FGUGR;A318;;cdb
+20/03/2013;;Sirac Jean-Michel;;;;ORY/TLN;1:22;;;;;;;;;1:22;1;PNF;FGUGR;A318;;cdb
+21/03/2013;;Sirac Jean-Michel;;;;TLN/ORY;1:29;0:11;;;;;;;;1:40;1;PNF;FGHQO;A320;;cdb
+21/03/2013;;Sirac Jean-Michel;;;;ORY/PUF;1:26;;;;;;;;;1:26;1;PF;FGHQO;A320;;cdb
+22/03/2013;;Sirac Jean-Michel;;;;PUF/ORY;0:57;0:19;;;;;;;;1:16;1;PF;FGMZE;A321;;cdb
+22/03/2013;;Sirac Jean-Michel;;;;ORY/BIA;1:41;;;;;;;;;1:41;1;PF;FGMZE;A321;;cdb
+22/03/2013;;Sirac Jean-Michel;;;;BIA/ORY;1:37;;;;;;;;;1:37;1;PNF;FGMZE;A321;;cdb
+28/03/2013;;Michel Arnaud;;;;CDG/VIE;1:55;;;;;;;;;1:55;1;PF;FHEPE;A320;;cdb
+28/03/2013;;Michel Arnaud;;;;VIE/CDG;2:11;;;;;;;;;2:11;1;PNF;FHEPE;A320;;cdb
+28/03/2013;;Michel Arnaud;;;;CDG/LYS;1:08;;;;;;;;;1:08;1;PF;FHEPE;A320;;cdb
+29/03/2013;;Michel Arnaud;;;;LYS/CDG;1:11;;;;;;;;;1:11;1;PF;FGKXF;A320;;cdb
+29/03/2013;;Michel Arnaud;;;;CDG/OTP;2:36;;;;;;;;;2:36;1;PNF;FGKXT;A320;RDC DL 65;cdb
+31/03/2013;;Michel Arnaud;;;;OTP/CDG;3:20;;;;;;;;;3:20;1;PF;FGRXE;A319;ASR Chargement;cdb
+31/03/2013;;Michel Arnaud;;;;CDG/HAM;1:32;;;;;;;;;1:32;1;PNF;FGRXE;A319;;cdb
+31/03/2013;;Michel Arnaud;;;;HAM/CDG;1:32;;;;;;;;;1:32;1;PNF;FGRXE;A319;;cdb
+02/04/2013;;Sirac Jean-Michel;;;;CDG/LIN;1:21;;;;;;;;;1:21;1;PF;FGJVB;A320;;cdb
+02/04/2013;;Sirac Jean-Michel;;;;LIN/CDG;1:28;;;;;;;;;1:28;1;PNF;FGJVB;A320;;cdb
+02/04/2013;;Sirac Jean-Michel;;;;CDG/FCO;0:34;1:25;;;;;;;;1:59;1;PNF;FGJVB;A320;;cdb
+03/04/2013;;Sirac Jean-Michel;;;;FCO/CDG;2:09;;;;;;;;;2:09;1;PNF;FGTAJ;A321;;cdb
+03/04/2013;;Sirac Jean-Michel;;;;CDG/GVA;1:10;;;;;;;;;1:10;1;PNF;FGTAJ;A321;;cdb
+03/04/2013;;Sirac Jean-Michel;;;;GVA/CDG;1:11;;;;;;;;;1:11;1;PF;FGTAJ;A321;;cdb
+03/04/2013;;Sirac Jean-Michel;;;;CDG/GVA;0:16;0:48;;;;;;;;1:04;1;PF;FGTAJ;A321;;cdb
+04/04/2013;;Sirac Jean-Michel;;;;GVA/CDG;1:20;;;;;;;;;1:20;1;PNF;FGUGO;A318;;cdb
+04/04/2013;;Sirac Jean-Michel;;;;CDG/NTE;1:04;;;;;;;;;1:04;1;PNF;FGUGO;A318;;cdb
+04/04/2013;;Sirac Jean-Michel;;;;NTE/CDG;1:00;;;;;;;;;1:00;1;PF;FGUGO;A318;;cdb
+04/04/2013;;Sirac Jean-Michel;;;;CDG/VCE;;1:34;;;;;;;;1:34;1;PF;FGUGO;A318;;cdb
+05/04/2013;;Sirac Jean-Michel;;;;VCE/CDG;1:47;;;;;;;;;1:47;1;PF;FGJVW;A320;;cdb
+05/04/2013;;Sirac Jean-Michel;;;;CDG/BOD;1:11;;;;;;;;;1:11;1;PF;FGJVW;A320;;cdb
+05/04/2013;;Sirac Jean-Michel;;;;BOD/CDG;;1:16;;;;;;;;1:16;1;PNF;FGJVW;A320;;cdb
+11/04/2013;;Ramon Frédéric;;;;CDG/MAN;1:20;;;;;;;;;1:20;1;PF;FHEPA;A320;;cdb
+11/04/2013;;Ramon Frédéric;;;;MAN/CDG;1:37;;;;;;;;;1:37;1;PF;FHEPA;A320;;cdb
+11/04/2013;;Ramon Frédéric;;;;CDG/MAN;1:19;;;;;;;;;1:19;1;PNF;FHEPA;A320;;cdb
+11/04/2013;;Ramon Frédéric;;;;MAN/CDG;0:26;1:09;;;;;;;;1:35;1;PNF;FHEPA;A320;;cdb
+25/04/2013;;Durindel Mickael;;;;CDG/OTP;2:41;;;;;;;;;2:41;1;PNF;FGRXJ;A319;;cdb
+25/04/2013;;Durindel Mickael;;;;OTP/CDG;0:07;3:05;;;;;;;;3:12;1;PF;FGRXJ;A319;;cdb
+26/04/2013;;Plancke Maxence;;;;CDG/ALG;0:18;1:55;;;;;;;;2:13;1;PF;FGRHS;A319;;cdb
+27/04/2013;;Plancke Maxence;;;;ALG/CDG;2:09;;;;;;;;;2:09;1;PF;FGRHO;A319;;cdb
+27/04/2013;;Plancke Maxence;;;;CDG/LED;2:35;0:27;;;;;;;;3:02;1;PNF;FGRHO;A319;;cdb
+28/04/2013;;Plancke Maxence;;;;LED/CDG;3:17;;;;;;;;;3:17;1;PF;FGKXV;A320;;cdb
+28/04/2013;;Plancke Maxence;;;;CDG/IST;1:12;2:15;;;;;;;;3:27;1;PNF;FGKXV;A320;;cdb
+29/04/2013;;Plancke Maxence;;;;IST/CDG;3:13;0:18;;;;;;;;3:31;1;PNF;FGKXS;A320;;cdb
+03/05/2013;;Lemarie Bertrand;;;Gondé Pascal;CDG/MAD;2:10;;;;;;;;;2:10;1;PF;FGUGO;A318;CEL;cdb
+03/05/2013;;Lemarie Bertrand;;;Gondé Pascal;MAD/CDG;2:07;;;;;;;;;2:07;1;PNF;FGUGO;A318;CEL;cdb
+04/05/2013;;Bonhomme Frédéric;;;;CDG/CMN;2:53;;;;;;;;;2:53;1;PNF;FHEPE;A320;;cdb
+05/05/2013;;Bonhomme Frédéric;;;;CMN/CDG;3:17;;;;;;;;;3:17;1;PF;FHEPE;A320;;cdb
+13/05/2013;;Pinçon Philippe;;;;CDG/GVA;1:13;;;;;;;;;1:13;1;PF;FGRHK;A319;;cdb
+13/05/2013;;Pinçon Philippe;;;;GVA/CDG;1:07;;;;;;;;;1:07;1;PF;FGRHK;A319;;cdb
+13/05/2013;;Pinçon Philippe;;;;CDG/GVA;0:54;0:11;;;;;;;;1:05;1;PNF;FGRHK;A319;;cdb
+14/05/2013;;Pinçon Philippe;;;;GVA/CDG;1:10;;;;;;;;;1:10;1;PF;FGUGF;A318;ASR Collision volatile à CDG;cdb
+14/05/2013;;Pinçon Philippe;;;;CDG/NTE;1:02;;;;;;;;;1:02;1;PNF;FGUGF;A318;;cdb
+14/05/2013;;Pinçon Philippe;;;;NTE/CDG;0:59;;;;;;;;;0:59;1;PNF;FGUGF;A318;;cdb
+14/05/2013;;Pinçon Philippe;;;;CDG/VCE;0:17;1:24;;;;;;;;1:41;1;PF;FGUGF;A318;;cdb
+15/05/2013;;Pinçon Philippe;;;;VCE/CDG;1:43;;;;;;;;;1:43;1;PF;FGFKH;A320;;cdb
+15/05/2013;;Pinçon Philippe;;;;CDG/BOD;1:12;;;;;;;;;1:12;1;PNF;FGFKH;A320;;cdb
+15/05/2013;;Pinçon Philippe;;;;BOD/CDG;0:30;0:44;;;;;;;;1:14;1;PNF;FGFKH;A320;;cdb
+20/05/2013;;Boulefroy Cyril;;;Hanon Philippe;simu DOC 2;;;;;;;;;;3:20;2;MIX;simu320;A320;Simu DOC 2;cdb
+24/05/2013;;Guilbert Eric;;;;CDG/LIS;2:28;;;;;;;;;2:28;1;PF;FGKXI;A320;;cdb
+24/05/2013;;Guilbert Eric;;;;LIS/CDG;2:32;;;;;;;;;2:32;1;PNF;FGKXI;A320;;cdb
+24/05/2013;;Guilbert Eric;;;;CDG/WAW;1:28;0:56;;;;;;;;2:24;1;PNF;FGKXI;A320;;cdb
+25/05/2013;;Guilbert Eric;;;;WAW/CDG;2:01;;;;;;;;;2:01;1;PF;FGRHM;A319;;cdb
+25/05/2013;;Guilbert Eric;;;;CDG/CPH;1:44;;;;;;;;;1:44;1;PNF;FGRHM;A319;;cdb
+26/05/2013;;Guilbert Eric;;;;CPH/CDG;2:03;;;;;;;;;2:03;1;PF;FGUGN;A318;;cdb
+26/05/2013;;Guilbert Eric;;;;CDG/STR;1:11;;;;;;;;;1:11;1;PNF;FGUGN;A318;;cdb
+27/05/2013;;Guilbert Eric;;;;STR/CDG;1:13;;;;;;;;;1:13;1;PNF;FGUGG;A318;;cdb
+27/05/2013;;Guilbert Eric;;;;CDG/CPH;1:50;;;;;;;;;1:50;1;PF;FGUGG;A318;ASR;cdb
+27/05/2013;;Guilbert Eric;;;;CPH/CDG;1:47;0:02;;;;;;;;1:49;1;PF;FGUGG;A318;;cdb
+28/05/2013;;Schmitt Thibaut;;;;CDG/ALG;2:24;;;;;;;;;2:24;1;PNF;FGRHO;A319;;cdb
+28/05/2013;;Schmitt Thibaut;;;;ALG/CDG;2:07;;;;;;;;;2:07;1;PF;FGRHO;A319;;cdb
+31/05/2013;;Brun Philippe;;;;CDG/AMS;1:13;;;;;;;;;1:13;1;PNF;FGFKH;A320;;cdb
+31/05/2013;;Brun Philippe;;;;AMS/CDG;1:11;;;;;;;;;1:11;1;PNF;FGFKH;A320;;cdb
+31/05/2013;;Brun Philippe;;;;CDG/VCE;1:38;;;;;;;;;1:38;1;PF;FGFKH;A320;;cdb
+01/06/2013;;Brun Philippe;;;;VCE/CDG;1:45;;;;;;;;;1:45;1;PF;FGUGA;A318;;cdb
+01/06/2013;;Brun Philippe;;;;CDG/FRA;1:19;;;;;;;;;1:19;1;PNF;FGUGA;A318;;cdb
+01/06/2013;;Brun Philippe;;;;FRA/CDG;1:17;;;;;;;;;1:17;1;PNF;FGUGA;A318;;cdb
+01/06/2013;;Brun Philippe;;;;CDG/LYS;1:08;;;;;;;;;1:08;1;PF;FGUGC;A318;;cdb
+02/06/2013;;Brun Philippe;;;;LYS/CDG;1:09;;;;;;;;;1:09;1;PF;FGUGC;A318;;cdb
+02/06/2013;;Brun Philippe;;;;CDG/NTE;1:02;;;;;;;;;1:02;1;PF;FGUGC;A318;;cdb
+02/06/2013;;Brun Philippe;;;;NTE/CDG;0:54;;;;;;;;;0:54;1;PNF;FGUGC;A318;;cdb
+04/06/2013;;Fernandes-Calero François;;;;CDG/SOF;2:42;;;;;;;;;2:42;1;PNF;FGKXZ;A320;;cdb
+04/06/2013;;Fernandes-Calero François;;;;SOF/CDG;2:46;;;;;;;;;2:46;1;PNF;FGKXZ;A320;;cdb
+04/06/2013;;Fernandes-Calero François;;;;CDG/LHR;1:25;;;;;;;;;1:25;1;PF;FGKXZ;A320;;cdb
+05/06/2013;;Fernandes-Calero François;;;;LHR/CDG;1:05;;;;;;;;;1:05;1;PF;FGTAU;A321;;cdb
+05/06/2013;;Fernandes-Calero François;;;;CDG/PTP;1:37;1:09;;;;;;;;2:46;1;PNF;FGTAU;A321;;cdb
+06/06/2013;;Fernandes-Calero François;;;;OTP/CDG;2:59;;;;;;;;;2:59;1;PNF;FGTAR;A321;;cdb
+06/06/2013;;Fernandes-Calero François;;;;CDG/LHR;1:22;;;;;;;;;1:22;1;PF;FGTAR;A321;;cdb
+07/06/2013;;Fernandes-Calero François;;;;LHR/CDG;1:05;;;;;;;;;1:05;1;PF;FGTAR;A321;;cdb
+07/06/2013;;Fernandes-Calero François;;;;CDG/LHR;1:50;;;;;;;;;1:50;1;PNF;FGTAR;A321;;cdb
+07/06/2013;;Fernandes-Calero François;;;;LHR/CDG;1:14;;;;;;;;;1:14;1;PF;FGTAR;A321;;cdb
+17/06/2013;;Savignol Steve;;;;CDG/ATH;3:24;;;;;;;;;3:24;1;PF;FHEPA;A320;;cdb
+17/06/2013;;Savignol Steve;;;;ATH/CDG;3:01;;;;;;;;;3:01;1;PNF;FHEPA;A320;;cdb
+25/06/2013;;Thobois Nicolas;;;;ORY/AJA;1:31;;;;;;;;;1:31;1;PF;FGMZC;A321;ASR;cdb
+25/06/2013;;Thobois Nicolas;;;;AJA/ORY;1:41;;;;;;;;;1:41;1;PNF;FGMZC;A321;Civière;cdb
+25/06/2013;;Thobois Nicolas;;;;ORY/BOD;1:10;;;;;;;;;1:10;1;PNF;FGMZC;A321;;cdb
+25/06/2013;;Thobois Nicolas;;;;BOD/ORY;1:09;;;;;;;;;1:09;1;PF;FGMZC;A321;;cdb
+26/06/2013;;Sirac Jean-Michel;;;;CDG/ALG;2:03;;;;;;;;;2:03;1;PNF;FGRXM;A319;;cdb
+26/06/2013;;Sirac Jean-Michel;;;;ALG/CDG;2:23;;;;;;;;;2:23;1;PNF;FGRXM;A319;;cdb
+26/06/2013;;Sirac Jean-Michel;;;;CDG/ALG;0:59;1:08;;;;;;;;2:07;1;PF;FGRXM;A319;;cdb
+27/06/2013;;Sirac Jean-Michel;;;;ALG/CDG;2:24;;;;;;;;;2:24;;PF;FGRHU;A319;;cdb
+27/06/2013;;Sirac Jean-Michel;;;;CDG/LHR;1:25;;;;;;;;;1:25;1;PNF;FGRHU;A319;;cdb
+28/06/2013;;Sirac Jean-Michel;;;;LHR/CDG;1:16;;;;;;;;;1:16;1;PF;FHEPA;A320;;cdb
+28/06/2013;;Sirac Jean-Michel;;;;CDG/LED;3:27;;;;;;;;;3:27;1;PNF;FHEPA;A320;;cdb
+29/06/2013;;Sirac Jean-Michel;;;;LED/CDG;3:16;;;;;;;;;3:16;1;PF;FHEPA;A320;;cdb
+03/07/2013;;Prudhomme Nicolas;;;;CDG/ALG;2:01;;;;;;;;;2:01;1;PNF;FGRHM;A319;;cdb
+04/07/2013;;Prudhomme Nicolas;;;;ALG/CDG;2:15;;;;;;;;;2:15;1;PF;FGRXE;A319;;cdb
+05/07/2013;;Beaudier Marc;;;;CDG/TLS;1:17;;;;;;;;;1:17;1;PNF;FGFKJ;A320;;cdb
+05/07/2013;;Beaudier Marc;;;;TLS/CDG;1:32;;;;;;;;;1:32;1;PF;FGFKJ;A320;;cdb
+05/07/2013;;Beaudier Marc;;;;CDG/IST;3:19;;;;;;;;;3:19;1;PNF;FGKXU;A320;;cdb
+06/07/2013;;Beaudier Marc;;;;IST/CDG;3:43;;;;;;;;;3:43;1;MIX;FGKXV;A320;CAT III;cdb
+06/07/2013;;Beaudier Marc;;;;CDG/OTP;2:58;;;;;;;;;2:58;1;MIX;FHEPA;A320;RDS PAXI;cdb
+07/07/2013;;Beaudier Marc;;;;OTP/CDG;3:04;;;;;;;;;3:04;1;PNF;FGRXF;A319;;cdb
+10/07/2013;;Venon Geoffroy;;;;CDG/MAN;1:42;;;;;;;;;1:42;1;PF;FGKXF;A320;;cdb
+10/07/2013;;Venon Geoffroy;;;;MAN/CDG;1:26;;;;;;;;;1:26;1;PNF;FGKXF;A320;;cdb
+10/07/2013;;Venon Geoffroy;;;;CDG/IST;3:10;;;;;;;;;3:10;1;PNF;FGKXF;A320;;cdb
+11/07/2013;;Venon Geoffroy;;;;IST/CDG;3:42;;;;;;;;;3:42;1;PF;FGKXZ;A320;;cdb
+20/07/2013;;Fostie Vincent;;;Beaufort Claude;LOE;;;;;;;;;3:30;3:30;2;MIX;simu320;A320;LOE;cdb
+21/07/2013;;Fostie Vincent;;;Beaufort Claude;E2;;;;;;;;;3:30;3:30;2;MIX;simuA320;A320;E2;cdb
+23/07/2013;;Paradeis Olivier;;;;ORY/VCE;1:27;;;;;;;;;1:27;1;PNF;"FHBNC	";A320;Vol Transavia;cdb
+23/07/2013;;Paradeis Olivier;;;;VCE/ORY;1:32;;;;;;;;;1:32;1;PNF;"FHBNC	";A320;Vol Transavia;cdb
+23/07/2013;;Paradeis Olivier;;;;ORY/OPO;2:05;;;;;;;;;2:05;1;PF;"FHBNC	";A320;Vol Transavia;cdb
+23/07/2013;;Paradeis Olivier;;;;OPO/ORY;1:07;0:52;;;;;;;;1:59;1;PF;"FHBNC	";A320;Vol Transavia;cdb
+24/07/2013;;Gounon Jacques;;;;CDG/AMS;1:11;;;;;;;;;1:11;1;PF;FGFKJ;A320;;cdb
+24/07/2013;;Gounon Jacques;;;;AMS/CDG;1:09;;;;;;;;;1:09;1;PNF;FGFKJ;A320;;cdb
+24/07/2013;;Gounon Jacques;;;;CDG/NTE;0:45;0:19;;;;;;;;1:04;1;PF;FGFKJ;A320;;cdb
+25/07/2013;;Gounon Jacques;;;;NTE/CDG;1:01;;;;;;;;;1:01;1;PF;FGUGL;A318;;cdb
+25/07/2013;;Gounon Jacques;;;;CDG/FRA;1:25;;;;;;;;;1:25;1;PNF;FGUGL;A318;;cdb
+25/07/2013;;Gounon Jacques;;;;FRA/CDG;1:20;;;;;;;;;1:20;1;PNF;FGUGL;A318;;cdb
+13/08/2013;;Sirac Jean-Michel;;;;CDG/HAM;1:26;;;;;;;;;1:26;1;PNF;FGKXN;A320;;cdb
+13/08/2013;;Sirac Jean-Michel;;;;HAM/CDG;1:32;;;;;;;;;1:32;1;PNF;FGKXN;A320;;cdb
+13/08/2013;;Sirac Jean-Michel;;;;CDG/FCO;2:00;;;;;;;;;2:00;1;PF;FGKXN;A320;;cdb
+14/08/2013;;Sirac Jean-Michel;;;;FCO/CDG;2:03;;;;;;;;;2:03;1;PF;FGTAE;A320;;cdb
+14/08/2013;;Sirac Jean-Michel;;;;CDG/MUC;1:34;;;;;;;;;1:34;1;PNF;FGTAE;A320;;cdb
+15/08/2013;;Sirac Jean-Michel;;;;MUC/CDG;1:45;;;;;;;;;1:45;1;PNF;FGKXH;A320;;cdb
+15/08/2013;;Sirac Jean-Michel;;;;CDG/ARN;2:25;;;;;;;;;2:25;1;PF;FGKXH;A320;;cdb
+16/08/2013;;Sirac Jean-Michel;;;;ARN/CDG;2:50;;;;;;;;;2:50;1;PF;FGKXH;A320;Invalid Data sur ND CDB;cdb
+22/08/2013;;Macchioni Clément;;;;CDG/VCE;1:37;;;;;;;;;1:37;1;PF;FGUGD;A318;;cdb
+22/08/2013;;Macchioni Clément;;;;VCE/CDG;1:53;;;;;;;;;1:53;1;PF;FGUGD;A318;;cdb
+22/08/2013;;Macchioni Clément;;;;CDG/GVA;1:10;;;;;;;;;1:10;1;PNF;FGUGD;A318;RDC ;cdb
+23/08/2013;;Macchioni Clément;;;;GVA/CDG;1:12;;;;;;;;;1:12;1;PNF;FGTAR;A321;;cdb
+23/08/2013;;Macchioni Clément;;;;CDG/ATH;3:03;;;;;;;;;3:03;1;PF;FGTAR;A321;;cdb
+24/08/2013;;Macchioni Clément;;;;ATH/CDG;3:30;;;;;;;;;3:30;1;PF;FGTAR;A321;;cdb
+24/08/2013;;Macchioni Clément;;;;CDG/LIS;2:27;;;;;;;;;2:27;1;PNF;FGTAR;A321;;cdb
+25/08/2013;;Macchioni Clément;;;;LIS/CDG;2:35;;;;;;;;;2:35;1;PNF;FGKXN;A320;;cdb
+25/08/2013;;Macchioni Clément;;;;CDG/BOD;1:09;;;;;;;;;1:09;1;PNF;FGKXN;A320;;cdb
+25/08/2013;;Macchioni Clément;;;;BOD/CDG;1:13;;;;;;;;;1:13;1;PF;FGKXN;A320;;cdb
+28/08/2013;;Trémouroux Sébastien;;;;CDG/BUD;2:02;;;;;;;;;2:02;1;PF;FGRXA;A319;;cdb
+28/08/2013;;Trémouroux Sébastien;;;;BUD/CDG;2:16;;;;;;;;;2:16;1;PF;FGRXA;A319;;cdb
+28/08/2013;;Trémouroux Sébastien;;;;CDG/ARN;2:32;;;;;;;;;2:32;1;PNF;FGRXA;A319;;cdb
+29/08/2013;;Trémouroux Sébastien;;;;ARN/CDG;2:32;;;;;;;;;2:32;1;PNF;FGFKY;A320;;cdb
+29/08/2013;;Trémouroux Sébastien;;;;CDG/AMS;1:10;;;;;;;;;1:10;1;PNF;FGFKY;A320;;cdb
+29/08/2013;;Trémouroux Sébastien;;;;AMS/CDG;0:59;;;;;;;;;0:59;1;PF;FGFKY;A320;;cdb
+29/08/2013;;Trémouroux Sébastien;;;;CDG/NTE;1:00;;;;;;;;;1:00;1;PF;FGFKY;A320;;cdb
+30/08/2013;;Trémouroux Sébastien;;;;NTE/CDG;1:09;;;;;;;;;1:09;1;PNF;FGUGH;A318;;cdb
+30/08/2013;;Trémouroux Sébastien;;;;CDG/FRA;1:22;;;;;;;;;1:22;1;PNF;FGUGH;A318;;cdb
+30/08/2013;;Trémouroux Sébastien;;;;FRA/CDG;1:15;;;;;;;;;1:15;1;PF;FGUGH;A318;;cdb
+03/09/2013;;Laviguerie Simon;;;;CDG/AMS;0:59;;;;;;;;;0:59;1;PF;FGTAD;A321;Départ sur réserve;cdb
+03/09/2013;;Laviguerie Simon;;;;AMS/CDG;1:11;;;;;;;;;1:11;1;PNF;FGTAD;A321;Départ sur réserve;cdb
+05/09/2013;;Boucq Emmanuel;;;;CDG/STR;1:10;;;;;;;;;1:10;1;PNF;FGUGJ;A318;;cdb
+05/09/2013;;Boucq Emmanuel;;;;STR/CDG;1:11;;;;;;;;;1:11;1;PNF;FGUGJ;A318;;cdb
+05/09/2013;;Boucq Emmanuel;;;;CDG/FRA;1:17;;;;;;;;;1:17;1;PF;FGUGJ;A318;;cdb
+06/09/2013;;Boucq Emmanuel;;;;FRA/CDG;1:20;;;;;;;;;1:20;1;PNF;FGUGO;A318;;cdb
+06/09/2013;;Boucq Emmanuel;;;;CDG/VCE;1:40;;;;;;;;;1:40;1;PF;FGUGO;A318;RDC code 65;cdb
+06/09/2013;;Boucq Emmanuel;;;;VCE/CDG;1:41;;;;;;;;;1:41;1;PF;FGUGO;A318;;cdb
+14/09/2013;;Plancke Maxence;;;;CDG/LHR;1:14;;;;;;;;;1:14;1;PF;FGRHK;A319;;cdb
+14/09/2013;;Plancke Maxence;;;;LHR/CDG;1:12;;;;;;;;;1:12;1;PF;FGRHK;A319;;cdb
+14/09/2013;;Plancke Maxence;;;;CDG/TUN;2:19;;;;;;;;;2:19;1;PNF;FGRHK;A319;;cdb
+15/09/2013;;Plancke Maxence;;;;TUN/CDG;2:43;;;;;;;;;2:43;1;PNF;FGRHK;A319;;cdb
+15/09/2013;;Plancke Maxence;;;;CDG/TUN;2:24;;;;;;;;;2:24;1;PF;FGRHK;A319;;cdb
+16/09/2013;;Plancke Maxence;;;;TUN/CDG;2:26;;;;;;;;;2:26;1;PF;FGRHK;A319;;cdb
+16/09/2013;;Plancke Maxence;;;;CDG/ALG;2:07;;;;;;;;;2:07;1;PNF;FGRHK;A319;;cdb
+17/09/2013;;Plancke Maxence;;;;ALG/CDG;2:18;;;;;;;;;2:18;1;PNF;FGRHH;A319;;cdb
+18/09/2013;;Briday Chloé;;;;CDG/WAW;2:03;;;;;;;;;2:03;1;PNF;FGRXL;A319;;cdb
+18/09/2013;;Briday Chloé;;;;WAW/CDG;2:27;;;;;;;;;2:27;1;PF;FGRXL;A319;;cdb
+25/09/2013;;Sirac Jean-Michel;;;;CDG/SOF;2:33;;;;;;;;;2:33;1;PNF;FGKXU;A320;;cdb
+25/09/2013;;Sirac Jean-Michel;;;;SOF/CDG;2:30;;;;;;;;;2:30;1;PNF;FGKXU;A320;;cdb
+25/09/2013;;Sirac Jean-Michel;;;;CDG/LHR;1:02;;;;;;;;;1:02;1;PF;FGKXU;A320;;cdb
+26/09/2013;;Sirac Jean-Michel;;;;LHR/CDG;1:00;;;;;;;;;1:00;1;PNF;FGTAR;A321;;cdb
+26/09/2013;;Sirac Jean-Michel;;;;CDG/OTP;2:32;;;;;;;;;2:32;1;PF;FGTAR;A321;;cdb
+27/09/2013;;Sirac Jean-Michel;;;;OTP/CDG;3:07;;;;;;;;;3:07;1;PF;FGTAR;A321;;cdb
+27/09/2013;;Sirac Jean-Michel;;;;CDG/LHR;1:19;;;;;;;;;1:19;1;PNF;FGTAR;A321;;cdb
+28/09/2013;;Sirac Jean-Michel;;;;LHR/CDG;1:11;;;;;;;;;1:11;1;PF;FGTAR;A321;;cdb
+28/09/2013;;Sirac Jean-Michel;;;;CDG/LHR;1:48;;;;;;;;;1:48;1;PF;FGTAR;A321;;cdb
+28/09/2013;;Sirac Jean-Michel;;;;LHR/CDG;1:35;;;;;;;;;1:35;1;PNF;FGTAR;A321;;cdb
+29/09/2013;;Morissee Sébastien;;;;CDG/NCE;1:36;;;;;;;;;1:36;1;PNF;FHEPA;A320;;cdb
+29/09/2013;;Morissee Sébastien;;;;NCE/CDG;1:37;;;;;;;;;1:37;1;PNF;FHEPA;A320;;cdb
+29/09/2013;;Morissee Sébastien;;;;CDG/AMS;1:00;;;;;;;;;1:00;1;PF;FHEPA;A320;Contrôle documentaire plus éthylotest au parking.;cdb
+29/09/2013;;Morissee Sébastien;;;;AMS/CDG;1:00;;;;;;;;;1:00;1;PF;FHEPA;A320;;cdb
+09/10/2013;;Sirac Jean-Michel;;;;CDG/LIN;1:21;;;;;;;;;1:21;1;PF;FGRHL;A319;;cdb
+09/10/2013;;Sirac Jean-Michel;;;;LIN/CDG;1:20;;;;;;;;;1:20;1;PNF;FGRHL;A319;;cdb
+09/10/2013;;Sirac Jean-Michel;;;;CDG/HAM;1:19;;;;;;;;;1:19;1;PNF;FGRHL;A319;;cdb
+10/10/2013;;Sirac Jean-Michel;;;;HAM/CDG;1:36;;;;;;;;;1:36;1;PNF;FGTAK;A321;;cdb
+10/10/2013;;Sirac Jean-Michel;;;;CDG/BOD;1:14;;;;;;;;;1:14;1;PF;FGTAK;A321;;cdb
+11/10/2013;;Sirac Jean-Michel;;;;BOD/CDG;1:27;;;;;;;;;1:27;1;PF;FGTAN;A321;;cdb
+11/10/2013;;Sirac Jean-Michel;;;;CDG/FCO;1:55;;;;;;;;;1:55;1;PNF;FGTAN;A321;;cdb
+12/10/2013;;Sirac Jean-Michel;;;;FCO/CDG;1:00;;;;;;;;;1:00;1;PF;FGKXT;A320;;cdb
+12/10/2013;;Sirac Jean-Michel;;;;CDG/VCE;1:35;;;;;;;;;1:35;1;PF;FGKXT;A320;;cdb
+12/10/2013;;Sirac Jean-Michel;;;;VCE/CDG;1:37;;;;;;;;;1:37;1;PNF;FGKXT;A320;;cdb
+16/10/2013;;Garnier André;;;;CDG/MAN;1:22;;;;;;;;;1:22;1;PNF;FGRXE;A319;;cdb
+16/10/2013;;Garnier André;;;;MAN/CDG;1:34;;;;;;;;;1:34;1;PF;FGRXE;A319;;cdb
+17/10/2013;;Morel Sylvestre;;;;CDG/TLV;4:20;;;;;;;;;4:20;1;PNF;FGKXM;A320;;cdb
+19/10/2013;;Morel Sylvestre;;;;TLV/CDG;4:44;;;;;;;;;4:44;1;PF;FGKXO;A320;;cdb
+22/10/2013;;Saulais Xavier;;;;CDG/BES;1:08;;;;;;;;;1:08;1;PNF;FGUGD;A318;;cdb
+22/10/2013;;Saulais Xavier;;;;BES/CDG;1:19;;;;;;;;;1:19;1;PNF;FGUGD;A318;;cdb
+22/10/2013;;Saulais Xavier;;;;CDG/BES;1:09;;;;;;;;;1:09;1;PF;FGUGD;A318;;cdb
+23/10/2013;;Saulais Xavier;;;;BES/CDG;1:19;;;;;;;;;1:19;1;PF;FGUGD;A318;;cdb
+23/10/2013;;Saulais Xavier;;;;CDG/STR;1:15;;;;;;;;;1:15;1;PNF;FGUGD;A318;;cdb
+24/10/2013;;Saulais Xavier;;;;STR/CDG;1:20;;;;;;;;;1:20;1;PF;FGUGC;A318;;cdb
+24/10/2013;;Saulais Xavier;;;;CDG/HAM;1:34;;;;;;;;;1:34;1;PF;FGUGC;A318;;cdb
+24/10/2013;;Saulais Xavier;;;;HAM/CDG;1:20;;;;;;;;;1:20;1;PNF;FGUGC;A318;;cdb
+24/10/2013;;Saulais Xavier;;;;CDG/LYS;1:00;;;;;;;;;1:00;1;PNF;FGUGC;A318;;cdb
+25/10/2013;;Saulais Xavier;;;;LYS/TLS;1:00;;;;;;;;;1:00;1;PNF;FGUGD;A318;;cdb
+25/10/2013;;Saulais Xavier;;;;TLS/LYS;0:54;;;;;;;;;0:54;1;PF;FGUGD;A318;;cdb
+25/10/2013;;Saulais Xavier;;;;LYS/CDG;1:02;;;;;;;;;1:02;1;PF;FGUGD;A318;;cdb
+01/11/2013;;Feix Daniel;;;;CDG/AMS;1:20;;;;;;;;;1:20;1;PNF;FHEPB;A320;;cdb
+01/11/2013;;Feix Daniel;;;;AMS/CDG;1:16;;;;;;;;;1:16;1;PF;FHEPB;A320;;cdb
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;

@@ -1,0 +1,21 @@
+th{
+	font-size: 0.8em !important;
+	width: 150px;
+	background-color: #F1F1F1;
+}
+table td{
+	font-size: 0.6em !important;
+}
+.width_large{
+	width: 200px;
+}
+.width_small{
+	width: 100px;
+}
+tr{
+	transition: all 0.1s ease-in-out;
+}
+tr:hover{
+	background-color: #FFF;
+	transition: all 0.1s ease-in-out;
+}

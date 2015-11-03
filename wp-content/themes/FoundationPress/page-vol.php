@@ -15,6 +15,9 @@ get_header(); ?>
 			<script type="text/javascript">
 				$(document).ready( function () {
 				    $('#table_vols').DataTable( {
+				    	language: {
+				    		url: '/vol-wp/wp-content/themes/FoundationPress/assets/javascript/custom/DataTables/localisation/french.json'
+				    	},
 				    	colReorder: true,
 				    	responsive: true,
 				    	select: true
@@ -23,6 +26,7 @@ get_header(); ?>
 			</script>
 			<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
 			<div class="entry-content">
+
 				<table id="table_vols">
 					<thead>
 						<tr>
@@ -41,8 +45,8 @@ get_header(); ?>
 							<th>Arr. IFR</th>
 							<th>Immat</th>
 							<th>Type d'avion</th>
-							<th class="width_small"></th>
-
+							<th>Observations</th>
+							<th class="width_small">Options</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -129,7 +133,13 @@ get_header(); ?>
 				endif;
 			echo "</td>";
 			echo "<td>";
-				echo the_field('type_avion');
+				$term = get_field('type_davion');
+				if( $term ):
+					echo $term->name;
+				endif;
+			echo "</td>";
+			echo "<td>";
+			echo the_content();
 			echo "</td>";
 
 			echo "<td>";

@@ -237,19 +237,19 @@ function twentysixteen_get_color_schemes() {
 			'colors' => array(
 				'#616a73',
 				'#4d545c',
-				'#aaaaaa',
-				'#ededed',
-				'#ededed',
+				'#c7c7c7',
+				'#f2f2f2',
+				'#f2f2f2',
 			),
 		),
-		'green' => array(
-			'label'  => __( 'Green', 'twentysixteen' ),
+		'red' => array(
+			'label'  => __( 'Red', 'twentysixteen' ),
 			'colors' => array(
 				'#ffffff',
-				'#acc1a2',
-				'#6d8c87',
-				'#ffffff',
-				'#efeef4',
+				'#ff675f',
+				'#640c1f',
+				'#402b30',
+				'#402b30',
 			),
 		),
 		'yellow' => array(
@@ -257,9 +257,9 @@ function twentysixteen_get_color_schemes() {
 			'colors' => array(
 				'#3b3721',
 				'#ffef8e',
-				'#7f7d6f',
-				'#3b3721',
 				'#774e24',
+				'#3b3721',
+				'#5b4d3e',
 			),
 		),
 	) );
@@ -384,7 +384,7 @@ add_action( 'wp_enqueue_scripts', 'twentysixteen_color_scheme_css' );
  * @since Twenty Sixteen 1.0
  */
 function twentysixteen_customize_control_js() {
-	wp_enqueue_script( 'color-scheme-control', get_template_directory_uri() . '/js/color-scheme-control.js', array( 'customize-controls', 'iris', 'underscore', 'wp-util' ), '20150825', true );
+	wp_enqueue_script( 'color-scheme-control', get_template_directory_uri() . '/js/color-scheme-control.js', array( 'customize-controls', 'iris', 'underscore', 'wp-util' ), '20151104', true );
 	wp_localize_script( 'color-scheme-control', 'colorScheme', twentysixteen_get_color_schemes() );
 }
 add_action( 'customize_controls_enqueue_scripts', 'twentysixteen_customize_control_js' );
@@ -395,7 +395,7 @@ add_action( 'customize_controls_enqueue_scripts', 'twentysixteen_customize_contr
  * @since Twenty Sixteen 1.0
  */
 function twentysixteen_customize_preview_js() {
-	wp_enqueue_script( 'twentysixteen-customize-preview', get_template_directory_uri() . '/js/customize-preview.js', array( 'customize-preview' ), '20150825', true );
+	wp_enqueue_script( 'twentysixteen-customize-preview', get_template_directory_uri() . '/js/customize-preview.js', array( 'customize-preview' ), '20151104', true );
 }
 add_action( 'customize_preview_init', 'twentysixteen_customize_preview_js' );
 
@@ -670,7 +670,8 @@ function twentysixteen_get_color_scheme_css( $colors ) {
 	.comment-list .pingback,
 	.comment-list .trackback,
 	.comment-reply-link,
-	.no-comments {
+	.no-comments,
+	.widecolumn .mu_register .mu_alert {
 		border-color: {$colors['main_text_color']}; /* Fallback for IE7 and IE8 */
 		border-color: {$colors['border_color']};
 	}
@@ -1023,7 +1024,8 @@ function twentysixteen_main_text_color_css() {
 		.comment-list .pingback,
 		.comment-list .trackback,
 		.comment-reply-link,
-		.no-comments {
+		.no-comments,
+		.widecolumn .mu_register .mu_alert {
 			border-color: %1$s; /* Fallback for IE7 and IE8 */
 			border-color: %2$s;
 		}

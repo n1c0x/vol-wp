@@ -29,10 +29,33 @@ get_header(); ?>
 			<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
 			<div class="entry-content">
 				<?php
+
+
+
 				$terms = get_terms( 'type_avion' );
 				if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
 					foreach ( $terms as $term ) {
+						
+						$arrivee_ifr = 0;
+						$args = array(
+							'post_type'  => 'vol',
+						    'tax_query' => array(
+						    	array(
+						   			'taxonomy'	=> 'type_avion',
+						   			'field'     => 'slug',
+						        	'terms'   	=> $term->name
+						       	),
+						  	),
+						);
+						$query = new WP_Query( $args );
+						if($query->have_posts()) : while ($query->have_posts() ) : $query->the_post();
+						    $arrivee_ifr += get_field('arrivee_ifr',get_the_id());
+						endwhile;
+						endif;
+						wp_reset_postdata();
+
 						?>
+
 						<table class="table_total">
 					<thead>
 						<tr>
@@ -63,8 +86,11 @@ get_header(); ?>
 							<td></td>
 							<td></td>
 							<td></td>
-							<td></td>
-							<td></td>
+							<!-- <td><?php $tmstamp = strtotime(get_field('heures_de_vol_jour',10)) + strtotime(get_field('heures_de_vol_nuit',10));
+									echo date("H:i", $tmstamp);
+								?></td> -->
+							<td><?php echo $hdv_jour ?></td>
+							<td><?php echo $arrivee_ifr ?></td>
 							<td></td>
 						</tr>
 						<tr>

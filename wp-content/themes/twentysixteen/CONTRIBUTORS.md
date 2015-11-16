@@ -1,4 +1,5 @@
 @iamtakashi
+@karmatosed
 @iandstewart
 @dd32
 @mor10
@@ -30,3 +31,5 @@
 @obenland
 @cainm
 @mrahmadawais
+@drew
+@trenzterra

@@ -30,13 +30,14 @@ get_header(); ?>
 			<div class="entry-content">
 				<?php
 
-
-
 				$terms = get_terms( 'type_avion' );
 				if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
 					foreach ( $terms as $term ) {
 						
 						$arrivee_ifr = 0;
+						$tmstamp_jour = 0;
+						$tmstamp_nuit = 0;
+
 						$args = array(
 							'post_type'  => 'vol',
 						    'tax_query' => array(
@@ -49,7 +50,56 @@ get_header(); ?>
 						);
 						$query = new WP_Query( $args );
 						if($query->have_posts()) : while ($query->have_posts() ) : $query->the_post();
-						    $arrivee_ifr += get_field('arrivee_ifr',get_the_id());
+						    $arrivee_ifr += get_field('arrivee_ifr',$post->ID);
+
+						    #if (get_field('poste',get_the_id()) == 1) {
+						    	#$poste += get_field('poste',get_the_id());
+						    	#$poste .= 'cdb';
+						    	#$poste = get_the_terms( get_the_id(), 'poste' );
+						    	#$poste = get_terms('poste');
+						    #}else{
+						    #	$poste .= 'opl';
+						    #}
+						    #$poste = get_the_terms( get_the_id(), 'poste' );
+						    #$poste = get_terms( 'poste', array( 'hide_empty' => 0 ) );
+							echo get_the_id()."<br>";
+							#echo "<pre>";
+							#var_dump($poste);
+							#echo "</pre>";
+							
+							#$tax = get_term_by( 'name', 'opl', 'poste' );
+							#echo "<pre>";
+							#var_dump($tax);
+							#echo "</pre>";
+							#echo $tax->term_id;
+						    
+							#$tax = get_the_terms( $post->ID, 'poste' );
+							#echo "<pre>";
+							#var_dump($tax);
+							#echo "</pre>";
+
+
+							// $taxonomies = array( 
+							//     'poste',
+							//     'aeroport'
+							// );
+							// $tax2 = get_terms($taxonomies);
+							// echo "<pre>";
+							// var_dump($tax2);
+							// echo "</pre>";
+
+							// $taxonomies = get_taxonomies(); 
+							// if ( $taxonomies ) {
+							//   foreach ( $taxonomies  as $taxonomy ) {
+							//     echo '<p>' . $taxonomy . '</p>';
+							//   }
+							// }
+
+							$tmstamp_jour += strtotime(get_field('heures_de_vol_jour',get_the_id()));
+							$tmstamp_nuit += strtotime(get_field('heures_de_vol_nuit',get_the_id()));
+							$hdv_jour = date("H:i", $tmstamp_jour);
+							$hdv_nuit = date("H:i", $tmstamp_nuit);
+							#$hdv_jour = $tmstamp;
 						endwhile;
 						endif;
 						wp_reset_postdata();
@@ -77,9 +127,10 @@ get_header(); ?>
 					<tbody>
 						<tr>
 							<td>Récap</td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td><?php echo $hdv_jour ?></td>
+							<td><?php echo $hdv_nuit ?></td>
+							<td><?php 
+							?></td>
 							<td></td>
 							<td></td>
 							<td></td>
@@ -89,7 +140,7 @@ get_header(); ?>
 							<!-- <td><?php $tmstamp = strtotime(get_field('heures_de_vol_jour',10)) + strtotime(get_field('heures_de_vol_nuit',10));
 									echo date("H:i", $tmstamp);
 								?></td> -->
-							<td><?php echo $hdv_jour ?></td>
+							<td></td>
 							<td><?php echo $arrivee_ifr ?></td>
 							<td></td>
 						</tr>

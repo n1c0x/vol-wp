@@ -103,7 +103,7 @@ get_header(); ?>
 			echo "</td>";
 			echo "<td>";
 				echo the_field('heures_de_vol_jour');
-			echo "</td>";
+				echo "</td>";
 			echo "<td>";
 				echo the_field('heures_de_vol_nuit');
 			echo "</td>";
@@ -121,7 +121,7 @@ get_header(); ?>
 			echo "</td>";
 			echo "<td>";
 				$tmstamp = strtotime(get_field('heures_de_vol_jour')) + strtotime(get_field('heures_de_vol_nuit'));
-				echo date("H:i", $tmstamp);
+				echo date("H:i", $tmstamp); 
 			echo "</td>";
 			echo "<td>";
 				echo the_field('arrivee_ifr');

@@ -276,4 +276,73 @@ function custom_taxonomy_type_avion() {
 }
 add_action( 'init', 'custom_taxonomy_type_avion', 0 );
 
+
+# Metabox de conversion des heures du format sexagésimal en décimal
+add_action('add_meta_boxes','init_metabox');
+function init_metabox(){
+  add_meta_box('durees_conversion', 'Conversion des horaires', 'durees_conversion', 'vol', 'side');
+}
+
+function durees_conversion($post){
+  $horaire = get_post_meta($post->ID,'_durees_conversion',true);?>
+
+  <!-- <label for="horaire_input">Minutes en décimal :</label> -->
+  <input id="horaire_input" type="text" name="url_site" value="<?php echo $horaire; ?>" placeholder="Minutes en sexagésimal"/>
+  <br />
+  <!-- <label for="resultat">Minutes en sexagésimal :</label> -->
+  <input id="resultat" type="text" value="" placeholder="Minutes en décimal"/>
+  <input type="button" class="button tagadd" value="Convertir" onclick="convert()" />
+  <button type="reset" class="button tagadd">Reset</button>
+
+<script>
+function convert() {
+    var val = parseInt(document.getElementById('horaire_input').value);
+    var minutes = (val/100)*60;
+    document.getElementById('resultat').value = parseInt(minutes);
+}	
+</script>
+  <?php
+}
+
+add_action('save_post','save_metabox');
+function save_metabox($post_id){
+if(isset($_POST['url_site']))
+  update_post_meta($post_id, '_durees_conversion', esc_url($_POST['url_site']));
+}
+
+
+
+// get taxonomies terms links
+function custom_taxonomies_terms_links(){
+  // get post by post id
+  $post = get_post( $post->ID );
+
+  // get post type by post
+  $post_type = $post->post_type;
+
+  // get post type taxonomies
+  $taxonomies = get_object_taxonomies( $post_type, 'objects' );
+
+  $out = array();
+  foreach ( $taxonomies as $taxonomy_slug => $taxonomy ){
+
+    // get the terms related to post
+    $terms = get_the_terms( $post->ID, $taxonomy_slug );
+
+    if ( !empty( $terms ) ) {
+      #$out[] = "<h2>" . $taxonomy->label . "</h2>\n<ul>";
+      foreach ( $terms as $term ) {
+        $out[] =
+          '  <a href="'
+        .    get_term_link( $term->slug, $taxonomy_slug ) .'">'
+        .    $term->name
+        . "</a>\n";
+      }
+      $out[] = "\n";
+    }
+  }
+
+  return implode('', $out );
+}
+
 ?>

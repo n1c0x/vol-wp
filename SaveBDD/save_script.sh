@@ -1,2 +1,2 @@
 #!/bin/sh
-/Applications/MAMP/Library/bin/mysqldump --add-drop-table -hlocalhost -uroot -proot vol-wp > ~/Sites/vol-wp/SaveBDD/vol-wp_`date +"%Y-%m-%d".sql
+mysqldump --add-drop-table -hlocalhost -uroot -ptoor vol-wp > ./vol-wp_`date +"%Y-%m-%d"`.sql

@@ -287,10 +287,12 @@ function durees_conversion($post){
   $horaire = get_post_meta($post->ID,'_durees_conversion',true);?>
 
   <!-- <label for="horaire_input">Minutes en décimal :</label> -->
-  <input id="horaire_input" type="text" name="url_site" value="<?php echo $horaire; ?>" placeholder="Minutes en sexagésimal"/>
+  <!-- <input id="horaire_input" type="text" name="url_site" value="<?php echo $horaire; ?>" placeholder="Minutes en sexagésimal"/> -->
+  <input id="horaire_input" type="text" name="url_site" value="<?php echo $horaire; ?>" placeholder="Minutes en décimal"/>
   <br />
   <!-- <label for="resultat">Minutes en sexagésimal :</label> -->
-  <input id="resultat" type="text" value="" placeholder="Minutes en décimal"/>
+  <!-- <input id="resultat" type="text" value="" placeholder="Minutes en décimal"/> -->
+  <input id="resultat" type="text" value="" placeholder="Minutes en sexagésimal"/>
   <input type="button" class="button tagadd" value="Convertir" onclick="convert()" />
   <button type="reset" class="button tagadd">Reset</button>
 

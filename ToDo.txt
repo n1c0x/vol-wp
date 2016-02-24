@@ -1,2 +1,20 @@
 ToDo:
 - récupérer les infos dans la base de donnée en fonction de paramètres donnés
+- import csv dans la base de données. Voir le fichier "test.csv" pour le nom des champs
+	- Import OK:
+		- post_type 
+		- date (écrire la date dans le format "jour_long no_jour mois_long annee_4_chiffres")
+		- commandant_de_bord
+		- copilote
+		- observateur_1
+		- observateur_2
+		- instructeur
+		- heures de vol (jour, nuit et ifr)
+		- arrivee_ifr
+	- Import NOK
+		toutes les taxonomies. Il faut réussir à lui dire d'ajouter les valeurs dans la BDD
+		- tax_aeroport_de_depart
+		- tax_aeroport_darrivee
+		- tax_poste (à cocher lors de la sauvegarde du vol)
+		- tax_fonction_pf_pnf (à cocher lors de la sauvegarde du vol)
+		- tax_immatriculation

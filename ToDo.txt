@@ -18,3 +18,5 @@ ToDo:
 		- tax_poste (à cocher lors de la sauvegarde du vol)
 		- tax_fonction_pf_pnf (à cocher lors de la sauvegarde du vol)
 		- tax_immatriculation
+- http://ourairports.com/data/
+- http://openflights.org/faq

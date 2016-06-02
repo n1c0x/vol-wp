@@ -69,6 +69,7 @@ define('NONCE_SALT', '8Z<Hz46k~2B+e=.,.+Qr,|`!1EIVqN@+ZL3N+[Hit}n)1DeH-.>[+_{?E#
  */
 $table_prefix  = 'wp_';
 
+
 /** 
  * Pour les développeurs : le mode déboguage de WordPress.
  * 
@@ -83,7 +84,7 @@ $table_prefix  = 'wp_';
  * 
  * @link https://codex.wordpress.org/Debugging_in_WordPress 
  */ 
-define('WP_DEBUG', false); 
+ define('WP_DEBUG', true);
 
 
  /** Désactivation des révisions d'articles */

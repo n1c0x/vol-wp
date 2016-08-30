@@ -107,3 +107,6 @@ if ( !defined('ABSPATH') )
 
 /** Réglage des variables de WordPress et de ses fichiers inclus. */
 require_once(ABSPATH . 'wp-settings.php');
+
+# permet le téléchargement de mises à jour depuis l'interface wordpress
+define('FS_METHOD','direct');
